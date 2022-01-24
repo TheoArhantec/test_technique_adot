@@ -1,0 +1,30 @@
+[
+  {
+    "lat": "48.86",
+    "lon": "2.35",
+    "name": "Chatelet",
+    "impressions": 1122,
+    "clicks": 151
+  },
+  {
+    "lat": "48",
+    "lon": "2",
+    "name": "Toute la base",
+    "impressions": 200000,
+    "clicks": 23994
+  },
+  {
+    "lat": "48.8759992",
+    "lon": "2.3481253",
+    "name": "Arc de triomphe",
+    "impressions": 0,
+    "clicks": 0
+  },
+  {
+    "lat": "48.88845096504584",
+    "lon": "2.2470618097659285",
+    "name": "test avec 1 résultat",
+    "impressions": 1,
+    "clicks": 1
+  }
+]
