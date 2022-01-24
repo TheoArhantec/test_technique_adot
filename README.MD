@@ -11,3 +11,6 @@
 L'url de l'api est http://localhost:8080 <br>
 Pour lancer les tests il faut d'abord couper le serveur
 et inversement pour lancer l'application il faut couper les tests
+
+La route pour tester l'application est : 
+<code>http://localhost:8080/event</code>
