@@ -6,14 +6,14 @@ import CoordinateWithDetail from "../types/CoordinateWithDetail";
 export const getEventByCoordinate = (request: Request, response: Response) =>
 {
     if(!Array.isArray(request.body) && request.body.length === undefined) {
-        response.status(422).send({message: "Paramètre incorrecte"});
+        response.status(422).send({message: "Paramètre incorrect"});
     }
 
     const promises: Promise<CoordinateWithDetail>[] = [];
 
     request.body.forEach((event: Coordinate) => {
         if(!isParamCoordinate(event)) {
-            response.status(422).send({message: "Paramètre incorrecte"});
+            response.status(422).send({message: "Paramètre incorrect"});
         }
         event.lat = event.lat.toString();
         event.lon = event.lon.toString();
